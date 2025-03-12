@@ -1,12 +1,12 @@
-#include<stdio.h>
-int main(){
-int i,n;
-scanf ("%d",&n);
-i=5;
-while(i<=n){
-        if(n%5==0)
-        printf("%d ",i);
-    i+=5 ;
-}
-return 0;
+#include <stdio.h>
+int main() {
+    int N, i = 1;
+    scanf("%d", &N);
+    while (i <= N) {
+        if (i % 2 != 0) {
+            printf("%d\n", i);
+        }
+        i++;
+    }
+    return 0;
 }

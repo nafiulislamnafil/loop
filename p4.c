@@ -10,3 +10,15 @@ int main() {
     }
     return 0;
 }
+####another way
+#include<stdio.h>
+int main(){
+int i,m,n;
+scanf("%d",&n);
+i=1;
+while(i<=n){
+   printf("%d ",i);
+    i+=2;
+}
+    return 0;
+}

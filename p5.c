@@ -2,12 +2,12 @@
 int main(){
 int i,n;
 scanf ("%d",&n);
-i=5;
+i=1;
 while(i<=n){
-        if(n%5==0){
+        if(i%5==0){
         printf("%d ",i);
-        }        
-    i+=5 ;
+        }
+    i+=1 ;
 }
 return 0;
 }

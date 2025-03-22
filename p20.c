@@ -1,22 +1,21 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
 int main() {
-    int i,n,a;
+int n,a,i;
     scanf("%d", &n);
-    i=2;
+    i=1;
     a=0;
-    while(i<n){
-       if(n%i==0){
+   while (i<n) {
+       if(n%2==0){
         a=1;
         break;
         }
-        i++;
+      i++;
      }
-    if(a==1|| n==1){
-        printf("no prime");
-    }
-    else{
-        printf("yes prime");
-    }
+     if(a==1){
+         printf("No");
+      }
+      else if(a!=1 ||n==1){
+         printf("Yes");
+      }
     return 0;
 }

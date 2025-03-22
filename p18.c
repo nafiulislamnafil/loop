@@ -11,3 +11,17 @@ s=s*0+ld;//s=ld;              //5             ,4      ,3    ,2    ,1
     }
 return 0;
 }
+///more accurate 
+#include <stdio.h>
+int main() {
+    int n,s,i;
+    scanf("%d", &n);
+    i=1;
+    while (n!=0) {
+        s=n%10;
+        n=n/10;
+        printf("%d,", s);
+        i++;
+     }
+    return 0;
+}

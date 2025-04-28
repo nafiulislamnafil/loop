@@ -1,3 +1,16 @@
+#include<stdio.h>
+int main (){
+    int n,s;
+    scanf("%d",&n);
+    s=0;
+    for(int i=1;s<n;i+=2){
+            printf("%d ",i);
+            s++;
+    }
+  return 0;
+}
+
+/////another way===>
 #include <stdio.h>
 int main() {
 int n,i;
@@ -21,16 +34,5 @@ for(i=2;i<=2*n;i+=2){
 }
 return 0;
 }
-/////another way===>
 
-#include <stdio.h>
-int main() {
-    int n, count = 0, sum = 0;
-    scanf("%d", &n);
-    while (count < n) {
-        printf("%d\n", sum);
-        sum += 2;
-        count++;
-    }
-    return 0;
-}
+

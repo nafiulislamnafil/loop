@@ -11,3 +11,15 @@ while(i<=n){
 }
 return 0;
 }
+//another way 
+#include<stdio.h>
+int main (){
+    int n,i;
+    scanf("%d",&n);
+    i=5;
+    while(i<=n){
+    printf("%d ",i);
+    i+=5;
+}
+return 0;
+}

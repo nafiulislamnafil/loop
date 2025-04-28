@@ -9,3 +9,13 @@ while(i<=n){
 }
 return 0;
 }
+another way
+#include<stdio.h>
+int main (){
+    int n;
+    scanf("%d",&n);
+    for(int i=3;i<=n;i+=4){
+    printf("%d ",i);
+    }
+   return 0;
+   }

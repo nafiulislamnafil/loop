@@ -1,15 +1,16 @@
-#include <stdio.h>
-int main() {
-int a,i,b,gcd;
-    scanf("%d%d", &a,&b);
-    i=1;
-   while (i<=a&&i<=b) {
-        if(a%i==0&&b%i==0){
-                gcd=i;
-        }
-      i++;
-   }
-   printf("%d",gcd);
-    return 0;
+#include<stdio.h>
+int main(){
+int i,n,m;
+scanf ("%d%d",&n,&m);
+i=1;
+int a= 0;
+while(i<=m&&i<=n){
+        if(n%i==0&&m%i==0){
+          a=i;
+       }
+    i++;
+  }
+   printf("%d\n",a);
+return 0;
 }
 
